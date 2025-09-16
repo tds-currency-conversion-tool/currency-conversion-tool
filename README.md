@@ -31,10 +31,18 @@ Currency Conversion Tool, similar to that which can be found on Google.
 ```bash
 # from repo root
 cd app
-npm ci
-npm run dev
 
+npm ci
 (npm ci step reads package.json and package-lock.json and installs react, react-dom, vite, @vitejs/plugin-react, typescript, recharts, tailwindcss, @tailwindcss/postcss)
 
+npm run dev
+(then open http://localhost:5173)
 
+Create app/.env
 
+and paste
+VITE_CURRENCYBEACON_API_KEY=your_api_key_here
+VITE_CURRENCYBEACON_BASE=https://api.currencybeacon.com/v1
+
+Replace your_api_key_here with API_KEY from https://currencybeacon.com/register
+Your API_KEY can be found on the main dashboard once you log in under API Token Information
