@@ -16,6 +16,7 @@ Currency Conversion Tool, similar to that which can be found on Google.
 - **Robust currency list parsing** human-readable currency names via Intl.DisplayNames (browser)
 - **Local caching** of currency metadata (24h TTL) to minimize API calls
 - **TypeScript everywhere** (strict), **Vite**, **Tailwind** for styling
+- Re-usable React components
 
 ---
 
